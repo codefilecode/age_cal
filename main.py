@@ -26,6 +26,7 @@ def knowageyear(i): # 2번 라인
     print(year,"년을 기준으로 만 나이는 다음과 같습니다.")
     print("생일전 생년월일: %d세" % year-ageA-1)
     print("생일후 생년월일: %d세" % year-ageB)
+
 def knowagemouth(i):
 
 def knowageday(i):
