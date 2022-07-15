@@ -8,6 +8,7 @@ def knowage(i):
     ageB = year - yearB # 생일후
     iyearA = year - i + 1 # 세는나이 연도 # 1번 라인
     sumage = year - iyearA + 1
+
     print("%d년을 기준으로 만 나이는 다음과 같습니다." % year)
     print("생일전 생일년도: %d년생" % yearA)
     print("생일후 생일년도: %d년생" % yearB)
