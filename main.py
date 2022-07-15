@@ -5,10 +5,12 @@ def knowage():
 
     yeara = year - age
     yearb = year - age - 1
-    ageA =
-    ageB =
+    ageA = year - yeara
+    ageB = year - yearb
+
     print("%d년을 기준으로 나이는 다음과 같습니다." % year)
-    print
+    print("생일전의 나이면 %d세 입니다." % ageA)
+    print("생일후의 나이면 %d세 입니다." % ageB)
     print("생일전의 년도면 %d년생 입니다." % yeara)
     print("생일후의 년도면 %d년생 입니다." % yearb)
 
