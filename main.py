@@ -17,15 +17,15 @@ def knowage(i): # 1번 라인
     print("생년년도: %d년생" % iyearA)
     print("나이: %d세" % i)
 
-def knowageyear():
-    print("만나이는 %d세 입니다.")
-    print("한국식 세는 나이는 %d세 입니다.")
-def knowagemouth():
-    print("만나이는 %d세 입니다.")
-    print("한국식 세는 나이는 %d세 입니다.")
-def knowageday():
-    print("만나이는 %d세 입니다.")
-    print("한국식 세는 나이는 %d세 입니다.")
+def knowageyear(i): # 2번 라인
+    print("기준 년도를 적어주세요")
+    year = int(input())
+    print(year,"년을 기준으로 만 나이는 다음과 같습니다.")
+
+def knowagemouth(i):
+
+def knowageday(i):
+
 
 
 print(" === 만나이 계산기 === ")
