@@ -10,14 +10,11 @@ def knowage():
     iA = ageA + 1
     iB = ageB + 1
 
-    print("%d년을 기준으로 나이는 다음과 같습니다." % year)
-    print("생일년도 전의 나이면 %d년도" % yearA)
-    print("생일년도 후의 나이면 %d년도" % yearB)
-    print("생일전의 나이면 %d세" % ageA)
-    print("생일후의 나이면 %d세" % ageB)
-    print("세는 나이는 %d년을 기준으로 %d세")
-    print("생일전 세는 나이면 %d세" % iA)
-    print("생일후 세는 나이면 %d세" % iB)
+    print(year,"년을 기준으로 나이는 다음과 같습니다.")
+    print("생일전 또는 생일년도 나이면",yearA,"년도, 생일후 나이면",yearB,"년도 입니다.")
+    print("생일전의 나이면",ageA,"세, 생일후의 나이면",ageB,"세 입니다.")
+    print("세는 나이는",year,"년을 기준으로 다음과 같습니다.")
+    print("생일전 세는 나이는","세 이며, 생일후 세는 나이는","세 입니다.")
 def knowageyear():
     print("만나이는 %d세 입니다.")
     print("한국식 세는 나이는 %d세 입니다.")
