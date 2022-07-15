@@ -1,4 +1,4 @@
-def knowage(i):
+def knowage(i): # 1번 라인
     print("기준 년도를 적어주세요")
     year = int(input())
 
