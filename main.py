@@ -15,7 +15,7 @@ def knowage(i):
     print("생일후 나이: %d세" % ageB)
     print("%d년을 기준으로 세는 나이는 다음과 같습니다." % year)
     print("생년년도: %d년생" % iyearA)
-    print("나이: %d세" % i)
+    print("나이: %d세" % )
 
 def knowageyear(i): # 2번 라인
     print("기준 년도를 적어주세요")
