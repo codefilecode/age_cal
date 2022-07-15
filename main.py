@@ -3,16 +3,18 @@ def knowage():
     print("기준 년도를 적어주세요")
     year = int(input())
 
-    yeara = year - age
-    yearb = year - age - 1
-    ageA = year - yeara
-    ageB = year - yearb
+    yeara = year - age # 생일전
+    yearb = year - age - 1 # 생일후
+    ageA = year - yeara # 생일전
+    ageB = year - yearb # 생일후
+    iA = ageA + 1
+    iB = ageB + 1
 
     print("%d년을 기준으로 나이는 다음과 같습니다." % year)
-    print("생일전의 나이면 %d세 입니다." % ageA)
-    print("생일후의 나이면 %d세 입니다." % ageB)
-    print("생일전의 년도면 %d년생 입니다." % yeara)
-    print("생일후의 년도면 %d년생 입니다." % yearb)
+    print("생일전의 나이면 %d세, 생일후의 나이면 %d세 입니다." % ageA, ageB)
+    print("생일전의 년도면 %d년생, 생일후의 년도면 %d년생 입니다." % yeara, yearb)
+    print("한국식 나이는 생일전의 년도면 %d세, 생일후의 년도면 %d세 입니다." % iA , iB)
+
 
 def knowageyear():
     print("만나이는 %d세 입니다.")
