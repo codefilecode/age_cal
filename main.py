@@ -18,16 +18,20 @@ def knowage(i):
     print("나이: %d세" % i)
 
 def knowageyear(i): # 2번 라인
-    print("태어난 년도를 적어주세요")
+    print("기준 년도를 적어주세요")
     year = int(input())
+    print("태어난 년도를 적어주세요")
+    yearb = int(input())
+    ageA = year - yearb
+    ageB = year - yearb - 1
     print(year,"년을 기준으로 만 나이는 다음과 같습니다.")
-    print("생일전 생년월일: %d세" % year-i-1)
-    print("생일후 생년월일: %d세" % year-i)
+    print("생일전 생년월일: %d세" % ageA)
+    print("생일후 생년월일: %d세" % ageB)
 
 def knowagemouth(i):
-
+    print("hello")
 def knowageday(i):
-
+    print("hello")
 
 
 print(" === 만나이 계산기 === ")
