@@ -34,7 +34,7 @@ def knowageyear(i): # 2번 라인
     print("%d년생 기준으로 세는 나이는 다음과 같습니다." % year)
     print("나이: %d세" % sumage)
 
-def knowagemouth(i):
+def knowagemouth(i): # 3번 라인
     print("hello")
 def knowageday(i):
     print("hello")
