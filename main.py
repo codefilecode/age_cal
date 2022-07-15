@@ -37,14 +37,14 @@ def knowageyear(i): # 2번 라인
 def knowagemouth(i): # 3번 라인
     print("기준 년도를 적어주세요")
     year = int(input())
+    print("기준 월을 적어주세요")
+    yearm = int(input())
     print("태어난 년도를 적어주세요")
     yearb = int(input())
     print("태어난 월을 적어주세요")
-    yearm = int(input())
+    yearo = int(input())
 
-    if(yearb <= year):
-
-    print("%d년 %d월 기준으로 만 나이는 다음과 같습니다.")
+    print("%d년 %d월 기준으로 만 나이는 다음과 같습니다." % year, yearm)
     print("나이: %d세")
 def knowageday(i):
     print("hello")
