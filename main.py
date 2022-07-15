@@ -21,11 +21,11 @@ def knowageyear(i): # 2번 라인
     ageA = year - yearA # 생일전
     ageB = year - yearB # 생일후
 
-    print("기준 년도를 적어주세요")
+    print("태어난 년도를 적어주세요")
     year = int(input())
     print(year,"년을 기준으로 만 나이는 다음과 같습니다.")
-    print("생일전 생년월일: %d세" % ageA)
-    print("생일후 생년월일: %d세" % ageB)
+    print("생일전 생년월일: %d세" % year-ageA-1)
+    print("생일후 생년월일: %d세" % year-ageB)
 def knowagemouth(i):
 
 def knowageday(i):
