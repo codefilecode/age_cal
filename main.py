@@ -26,12 +26,12 @@ def knowageyear(i): # 2번 라인
     ageA = year - yearb - 1
     ageB = year - yearb
     iyearA = yearb + i - 1
-
+    sumage = iyearA - yearb + 1
     print("%d년생을 기준으로 만 나이는 다음과 같습니다." % year)
     print("생일전 생년월일: %d세" % ageA)
     print("생일후 생년월일: %d세" % ageB)
     print("%d년생 기준으로 세는 나이는 다음과 같습니다." % year)
-    print("나이: %d세" % i)
+    print("나이: %d세" % sumage)
 def knowagemouth(i):
     print("hello")
 def knowageday(i):
