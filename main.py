@@ -1,5 +1,4 @@
 def knowage():
-    age = int(input("나이를 입력해주세요 : "))
     print("기준 년도를 적어주세요")
     year = int(input())
 
@@ -30,6 +29,9 @@ def knowageday():
 
 
 print(" === 만나이 계산기 === ")
+
+age = int(input("나이를 입력해주세요 : "))
+
 print("다음중 어느것에 해당하십니까?")
 print("1 : 나이만 알고 있음")
 print("2 : 년도만 알고 있음")
@@ -38,10 +40,10 @@ print("4 : 년월일을 알고 있음")
 j = int(input())
 
 if(j == 1):
-    knowage()
+    knowage(age)
 elif(j == 2):
-    knowageyear()
+    knowageyear(age)
 elif(j == 3):
-    knowagemouth()
+    knowagemouth(age)
 elif(j == 4):
-    knowageday()
+    knowageday(age)
