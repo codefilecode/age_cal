@@ -16,6 +16,8 @@ def knowage():
     print("생일전 또는 생일년도 나이면",yearA,"년도, 생일후 나이면",yearB,"년도 입니다.")
     print("생일전의 나이면",ageA,"세, 생일후의 나이면",ageB,"세 입니다.")
     print("세는 나이는",year,"년을 기준으로 다음과 같습니다.")
+    print("세는 나이는",year+1-age,"세 입니다.")
+
 def knowageyear():
     print("만나이는 %d세 입니다.")
     print("한국식 세는 나이는 %d세 입니다.")
