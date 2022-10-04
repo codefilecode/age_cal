@@ -28,7 +28,7 @@ while(1):
         ageA = year - yearb - 1
         ageB = year - yearb
         iyearA = yearb + i - 1
-        sumage = iyearA - yearb + 1
+        sumage = iyearA - yearb + 2
         print("%d년생을 기준으로 만 나이는 다음과 같습니다." % year)
         print("생일전 생년월일: %d세" % ageA)
         print("생일후 생년월일: %d세" % ageB)
